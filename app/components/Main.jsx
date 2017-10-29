@@ -5,7 +5,6 @@ var Main = React.createClass({
     render:function(){
         return(
            <div>
-                <h1>React Weather App</h1>
                 <Nav/>
                 {this.props.children}
            
