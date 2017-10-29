@@ -6,7 +6,12 @@ var Main = React.createClass({
         return(
            <div>
                 <Nav/>
-                {this.props.children}
+                <div className="row">
+                         <div className="medium-6 large-4 small-centered columns">
+                             {this.props.children}
+                         </div>
+                </div>
+               
            
            </div>
         )
