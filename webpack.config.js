@@ -3,10 +3,10 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-    './app/app.jsx',
+    './app/app.jsx'
   ],
   externals:{
-    jquery:'jQuery'
+    jquery:'jQuery',
   },
   plugins:[
     new webpack.ProvidePlugin({
@@ -28,8 +28,9 @@ module.exports = {
           About:'app/components/About.jsx',
          WeatherForm:'app/components/WeatherForm.jsx',
          WeatherMessage:'app/components/WeatherMessage.jsx',
-         openWeatherMap:'api/openWeatherMap.jsx',
-         ErrorModal:'app/components/ErrorModal.jsx'
+         openWeatherMap:'app/api/openWeatherMap.jsx',
+         ErrorModal:'app/components/ErrorModal.jsx',
+         Voice:'app/components/Voice.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
