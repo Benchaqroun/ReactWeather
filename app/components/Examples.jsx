@@ -8,10 +8,10 @@ var Examples = React.createClass({
             <p>Here are a few example locations to try out:</p>
             <ol>
                 <li>
-                    <Link to="/?location=Youssoufia">Youssoufia, Morocco</Link>
+                    <Link to="/?place=Youssoufia">Youssoufia, Morocco</Link>
                 </li>
                  <li>
-                    <Link to="/?location=Cairo">Cairo, Egypt</Link>
+                    <Link to="/?place=Cairo">Cairo, Egypt</Link>
                 </li>
             </ol>
            </div>
